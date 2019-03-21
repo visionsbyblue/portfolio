@@ -1,10 +1,9 @@
 /* NAVBAR, JUMBOTRON */
 
 .jumbotron{
-	/*background-color: #fefeec;*/
 	background-color: #ffffff;
 	text-align: center;
-	height: 400px;
+	height: 200px;
 }
 
 .navbar{
@@ -24,12 +23,10 @@
 /* CONTENT */
 
 body{
-
 	background-color: #edf8f8;
 }
 
 #about{
-	/*background-color: #e6fdff;*/
 	background-color: #fdfefe;
 	min-height: 1200px;
 	margin-top: 40px;
@@ -128,7 +125,9 @@ h2{
 h1{
 	font-family: halbrein;
 	text-align: center;
-	padding-top: 80px;
+	font-size: 45px;
+	padding-top: 30px;
+	
 }
 
 p{
@@ -157,10 +156,6 @@ a:hover{
 	text-align: center;
 }
 
-#jumbo h1{
-	padding: 100px;
-	font-size: 45px;
-}
 
 
 
