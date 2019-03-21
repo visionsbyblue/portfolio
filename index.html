@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<meta charset="utf-8">
+ 		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  		<!-- Single page website scrolling effect. Source: http://talkerscode.com/webtricks/one-page-website-template-using-html-css-and-jquery.php -->
+  		<script type="text/javascript" src="jquery.js"></script>
+  		<script type="text/javascript">
+  		function scrollto(div)
+  			{
+   				$('html,body').animate(
+   				{
+    					scrollTop: $("#"+div).offset().top
+   				},'slow');
+  			}
+  		</script>
+	</head>
+
+	<body>
+
+		<!--NAVBAR-->
+		<nav class="navbar navbar-default navbar-fixed-top">
+  			<div class="container-fluid">
+  				<!-- TOGGLE -->
+  				<div class="navbar-header">
+      				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>                        
+      				</button>
+   				 </div>
+   				<!-- COLLAPSE -->
+  				<div class="collapse navbar-collapse" id="myNavbar">
+	    			<ul class="nav navbar-nav">
+	    				<li onclick="scrollto('jumbo');"><a>Home</a></li>
+	      				<li onclick="scrollto('about');"><a>About</a></li>
+                <li onclick="scrollto('project');"><a>Projects</a></li>
+                <li onclick="scrollto('design');"><a>Designs</a></li>
+	      				<li onclick="scrollto('photo');"><a>Photography</a></li>
+	  	  			</ul>
+	  	  		</div>	
+  			</div>
+		</nav>
+
+		<!--JUMBOTRON -->
+		<div class="container-fluid">
+  			<div class="jumbotron" id="jumbo">
+    			<h1>Sini Leskinen</h1>
+  			</div>
+		</div> 
+
+     <!-- ABOUT -->
+    <div class="container" id="about">
+
+      <!-- ROW 1 -->
+      <div class="row">
+        <div class="col-sm-12">
+          <h1>About</h1>
+        </div>
+      </div>
+
+      <!-- ROW 2 -->
+      <div class="row">
+          <div class="col-sm-9">
+          </div> 
+      </div>
+
+      <!-- ROW 3 -->
+      <div class="row">
+          <div class="col-sm-4">
+            
+          </div> 
+          <div class="col-sm-4">
+            <img class="img-responsive" src="images/siniheppa.jpg">
+          </div> 
+          <div class="col-sm-4">
+            
+          </div> 
+      </div>
+
+      <!-- ROW 4 -->
+      <div class="row">
+          <div class="col-sm-3">
+            
+          </div> 
+          <div class="col-sm-6">
+            <p> Hi there! 👋 <br><br>
+              I'm Sini, a master’s degree student in user-centered design, who also has a keen interest towards service and graphic design. Currently I'm searching for an internship in order to get more hands-on experience from the industry and to develop my design skills further. 
+              I truly am in love with my field, and believe that great design can take us to greater places. <br><br>
+              My everyday life consists of studies, laughter, coffee, climbing walls, daydreaming about future travels, and pondering how to save the world. I get enthusiastic and attentive whenever hearing the terms ”design”, ”human-centered”, ”creativity” or ”sustainability”. The same sparkle and excitement awakens within me, whenever seeing an animal of any sort. <br><br>
+              I hope you enjoy taking a peek into my portfolio! 🌿 </p>
+
+          </div> 
+          <div class="col-sm-3">
+          </div> 
+      </div>
+
+    </div> 
+        <!-- PROJECTS -->
+    <div class="container" id="project">
+
+      <!-- ROW 1 -->
+       <div class="row">
+          <div class="col-sm-12">
+            <h1>Projects</h1>
+          </div>
+        </div>
+
+      <!--ROW 2 -->
+        <div class="row">
+          <div class="col-sm-4">
+              <img  class="img-responsive" src="images/tickets.png">
+                <div class="overlay">
+                  <div class="text"><a href="ticketshop.html">Ticket Shop</a></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <img  class="img-responsive" src="images/apatas.png">
+                <div class="overlay">
+                  <div class="text"><a href="petfriendly.html">A Patas UI</a></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <img  class="img-responsive" src="images/lainaamo.png">
+                <div class="overlay">
+                  <div class="text"><a href="lainaamo.html">Lainaamo</a></div>
+                </div>
+            </div>
+        </div> 
+
+        <!--ROW 3 -->
+        <div class="row">
+            <div class="col-sm-4">
+              <img  class="img-responsive" src="images/recogetec.png">
+                <div class="overlay">
+                  <div class="text"><a href="recycle.html">RecogeTec</a></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <img  class="img-responsive" src="images/gamestore.png">
+                <div class="overlay">
+                  <div class="text"><a href="game.html">Game Store</a></div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+              <img  class="img-responsive" src="images/villasofia.png">
+                <div class="overlay">
+                  <div class="text"><a href="villasofia.html">VillaSofia.fi</a></div>
+                </div>
+            </div>  
+        </div>  
+ 
+
+    </div>  
+
+		<!-- DESIGNS -->
+		<div class="container" id="design">
+		  
+      <!-- ROW 1 -->
+     <div class="row">
+        <div class="col-sm-12">
+          <h1>Designs</h1>
+        </div>
+      </div>
+
+      <!-- ROW 2 --> 
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/kiwi.jpg">
+              <div class="overlay">
+                <div class="text">KIWI </br> Watercolors </br> A4</div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/taiteilija.jpg">
+              <div class="overlay">
+                <div class="text">PORTRAIT </br> Photoshop </br> A4</div>
+              </div>
+          </div> 
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/papaya.jpg">
+              <div class="overlay">
+                <div class="text">PAPAYA </br> Photoshop </br> A4</div>
+              </div>
+          </div> 
+      </div> 
+      
+      <!--ROW 3 -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/juliste.jpg">
+              <div class="overlay">
+                <div class="text">ERIKA </br> Photoshop </br> A3 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/arcticsurf.png">
+              <div class="overlay">
+                <div class="text">ARCTIC SURF </br> Illustrator </br> A4 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/suvi.png">
+            <div class="overlay">
+              <div class="text">SUVI </br> Illustrator </br> A4</div>
+            </div>
+          </div>  
+      </div>  
+
+      <!--ROW 4 -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/boulder.jpg">
+              <div class="overlay">
+                <div class="text">BOULDER </br> Photoshop </br> A4 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/arcticsurf2.png">
+              <div class="overlay">
+                <div class="text">UNSTAD </br> Illustrator </br> A4 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/atc.png">
+            <div class="overlay">
+              <div class="text">BLACK DIAMOND</br> Illustrator </br> A4</div>
+            </div>
+          </div>  
+      </div> 
+
+      <!--ROW 5 -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/climb.jpg">
+              <div class="overlay">
+                <div class="text">CLIMB </br> Photoshop </br> A3 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/belay.jpg">
+              <div class="overlay">
+                <div class="text">BELAY </br> Photoshop </br> A3 </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/run.jpg">
+            <div class="overlay">
+              <div class="text">RUN </br> Photoshop </br> A4</div>
+            </div>
+          </div>  
+      </div> 
+
+		</div>
+
+
+    <!-- PHOTOGRAPHY -->
+    <div class="container" id="photo">
+
+      <!-- ROW 1 -->
+     <div class="row">
+        <div class="col-sm-12">
+          <h1>Photography</h1>
+        </div>
+      </div>
+
+    <!--ROW 2 -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/kustavi.jpg">
+              <div class="overlay">
+                <div class="text">KUSTAVI</br> Photograph </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/girlondunes.jpg">
+              <div class="overlay">
+                <div class="text">DUNE 7</br> Photograph </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/redmoon.jpg">
+            <div class="overlay">
+              <div class="text">BLOODMOON</br> Photograph </div>
+            </div>
+          </div>  
+      </div>  
+
+
+      <!--ROW 3 -->
+      <div class="row">
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/surfelias.jpg">
+              <div class="overlay">
+                <div class="text">GOOD VIBES</br> Photoshop </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/monkeys.jpg">
+              <div class="overlay">
+                <div class="text">FAMILY </br> Photograph </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+            <img  class="img-responsive" src="images/eliassurffaa.jpg">
+            <div class="overlay">
+              <div class="text">ARCTIC SURF</br> Photograph </div>
+            </div>
+          </div>  
+      </div>  
+
+
+    </div> 
+
+
+	</body>
+
+
+	<footer>
+
+
+	</footer>
+
+</html>
