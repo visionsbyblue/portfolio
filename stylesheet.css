@@ -1,0 +1,166 @@
+/* NAVBAR, JUMBOTRON */
+
+.jumbotron{
+	/*background-color: #fefeec;*/
+	background-color: #ffffff;
+	text-align: center;
+	height: 400px;
+}
+
+.navbar{
+	background-color: #fafafa;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+
+/* CONTENT */
+
+body{
+
+	background-color: #edf8f8;
+}
+
+#about{
+	/*background-color: #e6fdff;*/
+	background-color: #fdfefe;
+	min-height: 1200px;
+	margin-top: 40px;
+}
+
+#project {
+	background-color: #fdfefe;
+	min-height: 1200px;
+	margin-top: 40px;
+}
+
+#design {
+	background-color: #fdfefe;
+	min-height: 1200px;
+	margin-top: 40px;
+}
+
+#photo {
+	background-color: #fdfefe;
+	min-height: 1200px;
+	margin-top: 40px;
+}
+
+
+/* IMAGES */
+
+img{
+	max-height: 400px;
+	margin-bottom: 40px;
+}
+
+#about img{
+	border-radius: 50%;
+	margin-bottom: 100px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #f6fcfc;;
+}
+
+.col-sm-4:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  font-family: adam;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+
+/* TYPOGRAPHY */
+
+@font-face {
+    font-family: halbrein;
+    src: url(fonts/halbrein/Halbrein.ttf);
+}
+
+@font-face {
+    font-family: adam;
+    src: url(fonts/Adam.otf);
+}
+
+@font-face {
+    font-family: geosans;
+    src: url(fonts/GeosansLight.ttf);
+}
+
+
+h2{
+	font-family: adam;
+	text-align: center;
+	font-size: 45px;
+
+}
+
+#prjtitle{
+	margin-top:100px;
+	margin-bottom: 80px;
+}
+
+h1{
+	font-family: halbrein;
+	text-align: center;
+	padding-top: 80px;
+}
+
+p{
+	font-family: geosans;
+	font-size:16px;
+}
+
+a{
+	font-family: adam;
+	color:#bdc6c6; 
+	font-size: 18px;
+}
+
+a:hover{
+	font-size: 150%;
+}
+
+.col-sm-4 a{
+	text-decoration: none;
+	color:black;
+}
+
+.col-sm-12 h1{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+
+#jumbo h1{
+	padding: 100px;
+	font-size: 45px;
+}
+
+
+
